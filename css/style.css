@@ -14,7 +14,42 @@
 }
 
 body {
-    background: #fff;
+    background: url('../img/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: 'OpenSans-Light';
-    font-size: 12px;
+    font-size: 10px;
+}
+
+/*HEDER*/
+
+header {
+    width: 35%;
+    margin: 0 auto;
+}
+
+.logo img {
+    display: block;
+}
+
+.menu {
+    display: flex;
+    padding: 0;
+    color: #fff;
+}
+
+.menu li {
+    list-style-type: none;
+    margin-right: 5%;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    background: rgba(0, 0, 0, .3);
 }
