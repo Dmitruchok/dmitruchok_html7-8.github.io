@@ -13,51 +13,108 @@
     src: url('../fonts/OpenSans-Light.ttf');
 }
 
+@font-face {
+    font-family: 'MYRIADPROREGULAR';
+    src: url('../fonts/MYRIADPROREGULAR.woff');
+}
+
 body {
     background: url('../img/bg.png');
     background-repeat: no-repeat;
+    background-position: top center;
     background-size: cover;
     font-family: 'OpenSans-Light';
-    font-size: 10px;
+    font-size: 14px;
 }
+
 
 /*HEDER*/
 
 header {
-    width: 35%;
+    display: flex;
+    width: 960px;
+    position: relative;
     margin: 0 auto;
+    font-family: 'league-gothic.regular';
+    font-size: 24px;
 }
 
 .logo img {
     display: block;
 }
 
-.menu {
+.nav_menu {
     display: flex;
-    padding: 0;
     color: #fff;
 }
 
-.menu li {
+.nav_menu li {
     list-style-type: none;
-    margin-right: 5%;
+    padding-right: 7%;
 }
 
-.menu a {
+.nav_menu a {
     text-decoration: none;
     color: #fff;
 }
 
+.banner_img {
+    position: absolute;
+    top: 82%;
+    left: 45%;
+}
+
 .banner {
-    display: flex;
-    justify-content: center;
+    font-family: 'league-gothic.regular';
     background: rgba(0, 0, 0, .3);
 }
 
-.banner_text {
-    width: 16%;
+.banner_content {
+    margin: 0 auto;
+    display: flex;
+    width: 960px;
 }
 
-.banner_img img {
-    width: 70%;
+.banner_text {
+    width: 35%;
+}
+
+.banner_text h2 {
+    margin: 20px 0 0 0;
+    font-size: 60px;
+}
+
+.banner_text h3 {
+    margin: 0;
+    font-size: 32px;
+}
+
+.banner_text p {
+    margin: 0;
+    font-size: 18px;
+}
+
+.content {
+    background: linear-gradient(to top, #33263a, #745082);
+}
+
+.our_company {
+    display: flex;
+    color: white;
+    width: 960px;
+    margin: 0 auto;
+    font-family: 'MYRIADPROREGULAR';
+}
+
+.our_company h3 {
+    font-size: 30px;
+}
+
+.our_company p {
+    font-family: 'OpenSans-Light';
+    font-size: 16px;
+}
+
+.our_company a {
+    font-size: 18px;
 }
