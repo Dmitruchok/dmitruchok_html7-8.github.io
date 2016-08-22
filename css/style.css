@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'league-gothic.condensed-regular';
+    src: url('../fonts/league-gothic.condensed-regular.ttf');
+}
+
+@font-face {
+    font-family: 'league-gothic.regular';
+    src: url('../fonts/league-gothic.regular.ttf');
+}
+
+@font-face {
+    font-family: 'OpenSans-Light';
+    src: url('../fonts/OpenSans-Light.ttf');
+}
+
+body {
+    background: #fff;
+    font-family: 'OpenSans-Light';
+    font-size: 12px;
+}
