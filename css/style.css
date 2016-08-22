@@ -53,3 +53,11 @@ header {
     justify-content: center;
     background: rgba(0, 0, 0, .3);
 }
+
+.banner_text {
+    width: 16%;
+}
+
+.banner_img img {
+    width: 70%;
+}
