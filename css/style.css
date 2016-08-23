@@ -77,6 +77,7 @@ header {
 
 .banner_text {
     width: 35%;
+    padding: 6% 10% 6% 0;
 }
 
 .banner_text h2 {
@@ -106,15 +107,34 @@ header {
     font-family: 'MYRIADPROREGULAR';
 }
 
+.our_company_one,
+.our_company_two,
+.our_company_three {
+    padding: 5%;
+}
+
 .our_company h3 {
+    margin: 0;
     font-size: 30px;
 }
 
+.our_company_one h3:before {
+    content: url('../img/key.png');
+}
+
 .our_company p {
+    margin: 0;
+    width: 83%;
+    height: 17%;
+    overflow: hidden;
     font-family: 'OpenSans-Light';
     font-size: 16px;
 }
 
 .our_company a {
+    display: flex;
+    justify-content: flex-end;
+    color: #fff;
+    text-decoration: none;
     font-size: 18px;
 }
