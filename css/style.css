@@ -22,7 +22,6 @@ body {
     background: url('../img/bg.png');
     background-repeat: no-repeat;
     background-position: top center;
-    background-size: cover;
     font-family: 'OpenSans-Light';
     font-size: 14px;
 }
@@ -118,8 +117,8 @@ header {
     font-size: 30px;
 }
 
-.our_company_one h3:before {
-    content: url('../img/key.png');
+/*.our_company_one h3:before {
+    content: url('../img/key.png');*/
 }
 
 .our_company p {
