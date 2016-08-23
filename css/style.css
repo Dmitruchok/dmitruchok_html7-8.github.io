@@ -21,6 +21,7 @@
 body {
     background: url('../img/bg.png');
     background-repeat: no-repeat;
+    background-size: cover;
     background-position: top center;
     font-family: 'OpenSans-Light';
     font-size: 14px;
@@ -106,28 +107,18 @@ header {
     font-family: 'MYRIADPROREGULAR';
 }
 
-.our_company_one,
-.our_company_two,
-.our_company_three {
-    padding: 5%;
-}
-
-.our_company h3 {
-    margin: 0;
-    font-size: 30px;
-}
-
-/*.our_company_one h3:before {
-    content: url('../img/key.png');*/
-}
-
 .our_company p {
-    margin: 0;
+    margin: 0 0 0 10%;
     width: 83%;
     height: 17%;
     overflow: hidden;
     font-family: 'OpenSans-Light';
     font-size: 16px;
+}
+
+.our_company h3 {
+    margin: 0;
+    font-size: 23px;
 }
 
 .our_company a {
@@ -136,4 +127,8 @@ header {
     color: #fff;
     text-decoration: none;
     font-size: 18px;
+}
+
+.head_company {
+    display: flex;
 }
