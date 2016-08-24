@@ -197,7 +197,8 @@ header {
 }
 
 .head_pingbuller h2:before {
-    background: url('../img/face.png')
+    content: "";
+    background: url('../img/face.png');
 }
 
 .updates {
