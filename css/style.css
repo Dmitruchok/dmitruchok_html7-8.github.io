@@ -144,6 +144,10 @@ header {
     font-size: 16px;
 }
 
+.our_company a:hover {
+    text-shadow: 0 0 30px #fff;
+} 
+
 .head_company h3:before {
     content: "";
     display: inline-block;
@@ -152,7 +156,7 @@ header {
     width: 1.6rem;
     margin-right: 2rem;
     margin-top: 1rem;
-    background: url("../img/key.png") no-repeat;
+    background: url('../img/key.png') no-repeat;
 }
 
 .our_company_one {
@@ -171,4 +175,31 @@ header {
 .our_company_two,
 .our_company_three {
     width: 30%;
+}
+
+.inform {
+    background: #fff;
+}
+
+.inform_content {
+    display: flex;
+    width: 960px;
+    margin: 0 auto;
+}
+
+.pingbuller {
+    width: 38%;
+}
+
+.head_pingbuller {
+    display: flex;
+    align-items: center;
+}
+
+.head_pingbuller h2:before {
+    background: url('../img/face.png')
+}
+
+.updates {
+    width: 40%;
 }
