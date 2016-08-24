@@ -44,15 +44,21 @@ header {
 }
 
 .nav_menu {
-    display: flex;
+    width: 80%;
+    padding-left: 13%;
     color: #fff;
 }
 
 .nav_menu li {
+    display: inline-block;
     list-style-type: none;
-    padding-right: 7%;
+    margin-left: 7%;
 }
 
+.nav_menu li:hover {
+    text-decoration: underline;
+    color: #edbfff;
+}
 .nav_menu a {
     text-decoration: none;
     color: #fff;
@@ -60,11 +66,12 @@ header {
 
 .banner_img {
     position: absolute;
-    top: 82%;
-    left: 45%;
+    top: 207px;
+    left: 618px;
 }
 
 .banner {
+    margin-top: 148px;
     font-family: 'league-gothic.regular';
     background: rgba(0, 0, 0, .3);
 }
@@ -76,26 +83,33 @@ header {
 }
 
 .banner_text {
-    width: 35%;
-    padding: 6% 10% 6% 0;
+    width: 55%;
+    padding: 6% 0 8% 0;
+    line-height: 48px;
 }
 
 .banner_text h2 {
-    margin: 20px 0 0 0;
-    font-size: 60px;
+    margin: 28px 0 0 0;
+    font-size: 57px;
+    color: #fefefe;
 }
 
 .banner_text h3 {
     margin: 0;
     font-size: 32px;
+    color: #edbfff;
 }
 
 .banner_text p {
     margin: 0;
     font-size: 18px;
+    font-family: 'OpenSans-Light';
+    color: #fefefe;
+    line-height: 25px;
 }
 
 .content {
+    margin-top: 172px;
     background: linear-gradient(to top, #33263a, #745082);
 }
 
@@ -108,10 +122,11 @@ header {
 }
 
 .our_company p {
-    margin: 0 0 0 10%;
-    width: 83%;
-    height: 17%;
+    margin: 0 0 0 60px;
+    width: 248px;
+    height: 126px;
     overflow: hidden;
+    line-height: 25px;
     font-family: 'OpenSans-Light';
     font-size: 16px;
 }
@@ -122,13 +137,38 @@ header {
 }
 
 .our_company a {
-    display: flex;
-    justify-content: flex-end;
+    margin: 15px 0 0 197px;
+    display: block;
     color: #fff;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 16px;
 }
 
-.head_company {
-    display: flex;
+.head_company h3:before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    height: 3.6rem;
+    width: 1.6rem;
+    margin-right: 2rem;
+    margin-top: 1rem;
+    background: url("../img/key.png") no-repeat;
+}
+
+.our_company_one {
+        margin: 65px 0 0 5px;
+}
+
+.our_company_two {
+    margin: 65px 0 0 51px;
+}
+
+.our_company_three {
+    margin: 65px 0 0 49px;
+}
+
+.our_company_one,
+.our_company_two,
+.our_company_three {
+    width: 30%;
 }
