@@ -224,3 +224,18 @@ header {
     width: 960px;
     margin: 0 auto;
 }
+
+footer {
+    background: url('../img/footer.png');
+}
+
+.nav_menu_footer {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.nav_menu_footer li {
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 7%;
+}
