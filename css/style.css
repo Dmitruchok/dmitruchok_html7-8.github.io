@@ -267,11 +267,34 @@ header {
     margin: 36px;
 }
 
+.news {
+    background: #ececec;
+}
+
 .news_kategori {
     display: flex;
-    color: #fff;
+    color: #b9b9b9;
     width: 960px;
     margin: 0 auto;
+}
+
+.kategori_one,
+.kategori_two,
+.kategori_three {
+    width: 30%;
+}
+
+.head_updates {
+    display: flex;
+    align-items: center;
+}
+
+.head_updates span {
+    font-size: 21px;
+}
+
+p.under_head {
+    font-style: italic;
 }
 
 footer {
