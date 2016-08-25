@@ -197,10 +197,30 @@ header {
 }
 
 .head_pingbuller h2:before {
-    content: "";
-    background: url('../img/face.png');
+    content: url('../img/face.png');
 }
 
 .updates {
     width: 40%;
+}
+
+.labe {
+    background: #fff;
+    border-top: 1px solid;
+}
+
+.labe_img {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.labe_img img {
+    margin: 36px;
+}
+
+.news_kategori {
+    display: flex;
+    color: white;
+    width: 960px;
+    margin: 0 auto;
 }
