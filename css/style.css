@@ -299,9 +299,11 @@ p.under_head {
 
 footer {
     background: url('../img/footer.png');
+    background-repeat: no-repeat;
+    background-size: contain;
     font-family: 'league-gothic.regular';
     font-weight: normal;
-    color:#fff;
+    color: #fff;
 }
 
 .nav_menu_footer {
