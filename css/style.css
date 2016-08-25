@@ -59,7 +59,8 @@ header {
     text-decoration: underline;
     color: #edbfff;
 }
-.nav_menu a {
+.nav_menu a,
+.nav_menu_footer a {
     text-decoration: none;
     color: #fff;
 }
@@ -238,4 +239,11 @@ footer {
     display: inline-block;
     list-style-type: none;
     margin-left: 7%;
+}
+
+.designer_by {
+    display: flex;
+    justify-content: flex-end;
+    width: 960px;
+    margin: 0 auto;
 }
