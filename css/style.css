@@ -169,7 +169,7 @@ header {
     display: inline-block;
     vertical-align: middle;
     height: 2rem;
-    width: 1.8rem;
+    width: 1.9rem;
     margin-right: 2rem;
     background: url('../img/Layer 34.png') 0 0 no-repeat;
 }
@@ -195,14 +195,17 @@ header {
 }
 
 .our_company_one h3:hover:before {
+    transition:0.1s;
     background-position: 0 -33px;
 }
 
 .our_company_two h3:hover:before{
+    transition:0.1s;
     background-position: -32px -33px;
 }
 
 .our_company_three h3:hover:before{
+    transition:0.1s;
     background-position: -65px -33px;
 }
 
