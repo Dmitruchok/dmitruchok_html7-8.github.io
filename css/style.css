@@ -255,7 +255,7 @@ header {
 
 .labe {
     background: #fff;
-    border-top: 1px solid;
+    border-top: 1px solid #f5efef;
 }
 
 .labe_img {
@@ -276,6 +276,18 @@ header {
     color: #b9b9b9;
     width: 960px;
     margin: 0 auto;
+}
+
+.news_kategori h2 {
+    margin: 0;
+}
+
+.news_kategori p {
+    height: 85px;
+    overflow: hidden;
+    line-height: 20px;
+    font-family: 'OpenSans-Light';
+    font-size: 17px;
 }
 
 .kategori_one,
@@ -300,7 +312,7 @@ p.under_head {
 footer {
     background: url('../img/footer.png');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     font-family: 'league-gothic.regular';
     font-weight: normal;
     color: #fff;
