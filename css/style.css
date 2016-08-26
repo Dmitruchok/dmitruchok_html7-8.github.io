@@ -239,18 +239,22 @@ header {
 }
 
 .updates {
-    margin: 123px 0 0 87px;
+    margin: 0;
     width: 40%;
 }
 
-.recent:before {
+.container {
+    display: flex;
+    align-items: center;
+}
+/*.recent:before {
     margin-right: 14px;
     content: url('../img/1icon.png');
-}
+}*/
 
-.category:before {
+/*.category h4:before {
     content: url('../img/2icon.png');
-}
+}*/
 
 
 .labe {
@@ -288,6 +292,7 @@ header {
 .kategori_two,
 .kategori_three {
     width: 30%;
+    margin-right: 32px;
 }
 
 .kategori_one p {
