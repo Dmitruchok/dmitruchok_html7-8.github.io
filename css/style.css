@@ -62,9 +62,16 @@ header {
 
 .nav_menu li:hover {
     text-decoration: underline;
+}
+.nav_menu a {
+    text-decoration: none;
     color: #edbfff;
 }
-.nav_menu a,
+
+.nav_menu span {
+    color: #fff;
+}
+
 .nav_menu_footer a {
     text-decoration: none;
     color: #fff;
@@ -239,8 +246,14 @@ header {
 }
 
 .updates {
-    margin: 0;
+    margin: 116px 0 0 70px;
     width: 40%;
+}
+
+.updates a {
+    display: block;
+    margin: 0 0 0 267px;
+    text-decoration: none;
 }
 
 .ikon1,
@@ -295,7 +308,7 @@ header {
     overflow: hidden;
     line-height: 20px;
     font-family: 'OpenSans-Light';
-    font-size: 17px;
+    font-size: 16px;
 }
 
 .kategori_two p,
@@ -304,7 +317,7 @@ header {
     overflow: hidden;
     line-height: 20px;
     font-family: 'OpenSans-Light';
-    font-size: 17px;
+    font-size: 16px;
 
 }
 
