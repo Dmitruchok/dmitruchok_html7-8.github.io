@@ -243,19 +243,14 @@ header {
     width: 40%;
 }
 
-.container {
-    display: flex;
-    align-items: center;
+.ikon1,
+.recent,
+.category,
+.ikon2,
+.blog,
+.ikon3 {
+    display: inline-block;
 }
-/*.recent:before {
-    margin-right: 14px;
-    content: url('../img/1icon.png');
-}*/
-
-/*.category h4:before {
-    content: url('../img/2icon.png');
-}*/
-
 
 .labe {
     background: #fff;
