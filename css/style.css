@@ -230,7 +230,7 @@ header {
 .inform {
     background: #fff;
     font-family: 'OpenSans-Light';
-    padding-bottom: 88px;
+    padding-bottom: 84px;
 }
 
 .inform_content {
@@ -337,53 +337,86 @@ height: 163px;
 }
 
 .news {
+    padding-bottom: 84px;
     background: #ececec;
 }
 
 .news_kategori {
     display: flex;
     color: #b9b9b9;
+    font-weight: normal;
     width: 960px;
     margin: 0 auto;
 }
 
-.news_kategori h2 {
+.news_kategori h2{
+    display: inline-block;
     margin: 0;
+    font-size: 3rem;
+    font-family: 'league-gothic.regular';
+    font-weight: normal;
+    color: #454545;
 }
 
-.kategori_one,
-.kategori_two,
+.news_kategori h3 {
+    font-size: 1.8rem;
+    margin: 0;
+    font-family: 'league-gothic.regular';
+    font-weight: normal;
+    color: #454545;
+}
+
+.kategori_one {
+    width: 30%;
+    margin-top: 90px;
+    padding-right: 6%;
+}
+
+.kategori_two{
+    width: 30%;
+    margin-top: 93px;
+    padding-right: 6%;
+}
+
 .kategori_three {
     width: 30%;
-    margin-right: 32px;
+    margin-top: 91px;
+    padding: 0;
 }
 
 .kategori_one p {
-    height: 100px;
+    height: 115px;
     overflow: hidden;
-    line-height: 20px;
+    margin: 0;
+    line-height: 25px;
     font-family: 'OpenSans-Light';
-    font-size: 16px;
+    font-size: 1rem;
+}
+
+.kategori_one h5 {
+    color: #d2d2d2;
+    font-style: italic;
+    margin: 11px 0 13px 0;
 }
 
 .kategori_two p,
 .kategori_three p {
-    height: 140px;
+    height: 165px;
     overflow: hidden;
-    line-height: 20px;
+    line-height: 25px;
     font-family: 'OpenSans-Light';
-    font-size: 16px;
+    font-size: 1rem;
+    margin-top: 7px;
 
 }
 
 
 .head_updates span {
-    font-size: 21px;
+    display: inline-block;
+    font-family: 'league-gothic.regular';
+    font-size: 3rem;
 }
 
-.head_updates h5 {
-    font-style: italic;
-}
 
 footer {
     background: url('../img/footer.png');
