@@ -264,7 +264,9 @@ header {
 }
 
 .labe_img img {
-    margin: 36px;
+    width: 10%;
+    margin: 15px;
+    display: inline-block;
 }
 
 .news {
@@ -282,19 +284,30 @@ header {
     margin: 0;
 }
 
-.news_kategori p {
-    height: 85px;
+.kategori_one,
+.kategori_two,
+.kategori_three {
+    width: 30%;
+}
+
+.kategori_one p {
+    height: 100px;
     overflow: hidden;
     line-height: 20px;
     font-family: 'OpenSans-Light';
     font-size: 17px;
 }
 
-.kategori_one,
-.kategori_two,
-.kategori_three {
-    width: 30%;
+.kategori_two p,
+.kategori_three p {
+    height: 140px;
+    overflow: hidden;
+    line-height: 20px;
+    font-family: 'OpenSans-Light';
+    font-size: 17px;
+
 }
+
 
 .head_updates {
     display: flex;
@@ -305,7 +318,7 @@ header {
     font-size: 21px;
 }
 
-p.under_head {
+.head_updates h5 {
     font-style: italic;
 }
 
