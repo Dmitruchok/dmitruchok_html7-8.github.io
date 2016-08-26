@@ -253,7 +253,9 @@ header {
 .updates a {
     display: block;
     margin: 0 0 0 267px;
+    color: #454545;
     text-decoration: none;
+    font-family: 'league-gothic.regular'
 }
 
 .ikon1,
