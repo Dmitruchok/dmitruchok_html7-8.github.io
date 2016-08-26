@@ -20,7 +20,6 @@
 
 body {
     font-family: 'OpenSans-Light';
-    font-size: 14px;
 }
 
 
@@ -41,7 +40,7 @@ header {
     margin: 0 auto;
     font-family: 'league-gothic.regular';
     font-weight: normal;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .logo img {
@@ -97,8 +96,7 @@ header {
 
 .banner_text {
     width: 55%;
-    padding: 6% 0 8% 0;
-    line-height: 48px;
+    margin: 50px 0 0 0;
 }
 
 .banner_text h2 {
@@ -117,10 +115,10 @@ header {
 
 .banner_text p {
     margin: 0;
-    font-size: 18px;
+    font-size: 1rem;
     font-family: 'OpenSans-Light';
     color: #fefefe;
-    line-height: 25px;
+    line-height: 24px;
 }
 
 .content {
