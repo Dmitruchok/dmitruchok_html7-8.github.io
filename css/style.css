@@ -43,12 +43,16 @@ header {
     font-size: 1.5rem;
 }
 
+.logo {
+    width: 25%;
+}
+
 .logo img {
     display: block;
 }
 
 .nav_menu {
-    width: 80%;
+    width: 71%;
     padding-left: 127px;
     color: #fff;
 }
@@ -69,6 +73,16 @@ header {
 
 .nav_menu span {
     color: #fff;
+}
+
+@media (min-width: 768px) {
+    .nav_menu {
+        width: 100%;
+    }
+
+    .logo {
+        width: 100%
+    }
 }
 
 .nav_menu_footer a {
@@ -464,3 +478,4 @@ footer {
 .designer_by span {
     font-family: 'OpenSans-ExtraBold';
 }
+
