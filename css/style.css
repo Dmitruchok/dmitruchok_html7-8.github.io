@@ -159,13 +159,14 @@ header {
     display: flex;
     color: white;
     width: 960px;
+    height: 270px;
     margin: 0 auto;
     font-family: 'league-gothic.regular';
 }
 
 .our_company p {
     margin: 7px 0 0 54px;
-    height: 23%;
+    height: 64%;
     overflow: hidden;
     line-height: 25px;
     font-family: 'OpenSans-Light';
