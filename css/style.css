@@ -54,13 +54,14 @@ header {
 }
 
 .nav_menu li {
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
     display: inline-block;
     list-style-type: none;
     margin-left: 46px;
 }
 
 .nav_menu li:hover {
-    text-decoration: underline;
+    border-bottom: 1px solid #edbfff;
 }
 .nav_menu a {
     text-decoration: none;
@@ -238,7 +239,7 @@ header {
 .inform {
     background: #fff;
     font-family: 'OpenSans-Light';
-    padding-bottom: 84px;
+    padding-bottom: 90px;
 }
 
 .inform_content {
@@ -295,7 +296,7 @@ height: 163px;
 
 .updates a {
     display: block;
-    margin: 18px 0 0 345px;
+    margin: 13px 0 0 343px;
     color: #454545;
     font-size: 1.1rem;
     text-decoration: none;
@@ -344,7 +345,7 @@ height: 163px;
 }
 
 .news {
-    padding-bottom: 84px;
+    padding-bottom: 82px;
     background: #ececec;
 }
 
@@ -375,19 +376,19 @@ height: 163px;
 
 .kategori_one {
     width: 30%;
-    margin-top: 90px;
+    margin-top: 93px;
     padding-right: 6%;
 }
 
 .kategori_two{
     width: 30%;
-    margin-top: 93px;
+    margin-top: 95px;
     padding-right: 6%;
 }
 
 .kategori_three {
     width: 30%;
-    margin-top: 91px;
+    margin-top: 95px;
     padding: 0;
 }
 
