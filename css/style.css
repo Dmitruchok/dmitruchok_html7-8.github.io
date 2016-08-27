@@ -30,22 +30,18 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
-    padding-bottom: 170px;
+    padding-bottom: 166px;
 }
 
 .menu {
     display: flex;
     width: 960px;
-    position: relative;
     margin: 0 auto;
     font-family: 'league-gothic.regular';
     font-weight: normal;
     font-size: 1.5rem;
 }
 
-.logo {
-    width: 25%;
-}
 
 .logo img {
     display: block;
@@ -75,13 +71,11 @@ header {
     color: #fff;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
     .nav_menu {
         width: 100%;
-    }
-
-    .logo {
-        width: 100%
+        display: none;
+        height: 300%;
     }
 }
 
@@ -93,7 +87,7 @@ header {
 .banner_img {
     position: absolute;
     top: 210px;
-    left: 613px;
+    left: 1323px;
 }
 
 .banner {
@@ -137,7 +131,7 @@ header {
 }
 
 .content {
-    padding-bottom: 67px;
+    padding-bottom: 70px;
     background: linear-gradient(to top, #33263a, #745082);
 }
 
@@ -336,6 +330,7 @@ height: 163px;
 
 .labe {
     background: #fff;
+    padding-bottom: 27px;
     border-top: 1px solid #f5efef;
 }
 
@@ -345,9 +340,7 @@ height: 163px;
 }
 
 .labe_img img {
-    width: 10%;
-    margin: 15px;
-    display: inline-block;
+    margin: 25px 0 0 92px;
 }
 
 .news {
