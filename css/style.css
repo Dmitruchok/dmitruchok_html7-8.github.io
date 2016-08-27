@@ -93,6 +93,10 @@ header {
         margin-left: 0;
     }
 
+    .banner {
+        margin-top: 116px;
+    }
+
 }
 
 .nav_menu_footer a {
@@ -102,8 +106,8 @@ header {
 
 .banner_img {
     position: absolute;
-    top: 210px;
-    left: 1323px;
+    top: 20%;
+    left: 57%;
 }
 
 .banner {
@@ -126,7 +130,7 @@ header {
 
 .banner_text h2 {
     margin: 25px 0 0 0;
-    font-size: 57px;
+    font-size: 3.6rem;
     font-weight: normal;
     color: #fefefe;
 }
@@ -161,18 +165,16 @@ header {
 
 .our_company p {
     margin: 7px 0 0 54px;
-    padding-bottom: 70px;
-    width: 248px;
-    height: 56px;
+    height: 23%;
     overflow: hidden;
     line-height: 25px;
     font-family: 'OpenSans-Light';
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .our_company h3 {
     margin: 0;
-    font-size: 29px;
+    font-size: 1.8rem;
     font-weight: normal;
 }
 
@@ -181,7 +183,7 @@ header {
     display: block;
     color: #fff;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 1.1rem;
 }
 
 .our_company a:hover {
