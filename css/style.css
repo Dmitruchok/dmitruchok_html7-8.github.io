@@ -296,7 +296,7 @@ header {
     margin: 0 0 0 58px;
     height: 64%;
     overflow: hidden;
-    line-height: 23px;
+    line-height: 25px;
     font-family: 'OpenSans-Light';
     font-size: 1em;
 }
@@ -555,6 +555,28 @@ header {
     font-family: 'league-gothic.regular';
 }
 
+@media (max-width: 768px) {
+    .updates a {
+        display: none;  
+    }
+}
+
+a.more_blog {
+    display: block;
+    margin: 18px 0 0 240px;
+    color: #454545;
+    font-size: 1.1em;
+    text-decoration: none;
+    font-family: 'league-gothic.regular';
+}
+
+@media (min-width: 769px) {
+    a.more_blog  {
+        display: none;  
+    }
+}
+
+
 .ikon1,
 .recent,
 .category,
@@ -602,13 +624,35 @@ header {
     margin: 0 auto;
 }
 
-.labe_img img {
+.labe_img img.logos {
     margin: 25px 0 0 92px;
 }
 
+@media (max-width: 768px) {
+    .labe_img img.logos {
+        display: none;
+    }
+}
+
+img.logos768 {
+    margin: 27px 0 0 2px;
+}
+
+@media (min-width: 769px) {
+    img.logos768  {
+        display: none;  
+    }
+}
+
 .news {
-    padding-bottom: 82px;
+    padding-bottom: 93px;
     background: #ececec;
+}
+
+@media (max-width: 960px) {
+    .news {
+        padding-bottom: 90px;
+    }
 }
 
 .news_kategori {
@@ -636,6 +680,12 @@ header {
     color: #454545;
 }
 
+@media (max-width: 768px) {
+    .news_kategori h3 {
+        font-size: 1.4em;
+    }
+}
+
 .kategori_one {
     width: 30%;
     margin-top: 93px;
@@ -654,8 +704,17 @@ header {
     padding: 0;
 }
 
+@media (max-width: 768px) {
+    .kategori_one,
+    .kategori_two,
+    .kategori_three  {
+        width: 22%; 
+        margin-top: 100px;
+    }
+}
+
 .kategori_one p {
-    height: 115px;
+    height: 120px;
     overflow: hidden;
     margin: 0;
     line-height: 25px;
@@ -671,7 +730,8 @@ header {
 
 .kategori_two p,
 .kategori_three p {
-    height: 165px;
+    height: 170px;
+    margin-bottom: 0;
     overflow: hidden;
     line-height: 25px;
     font-family: 'OpenSans-Light';
