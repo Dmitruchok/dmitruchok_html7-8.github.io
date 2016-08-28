@@ -284,13 +284,29 @@ header {
     font-size: 1em;
 }
 
+@media (max-width: 768px) {
+    .our_company_two p {
+    margin: 0 0 0 46px;
+    height: 70%;
+    line-height: 23px;
+    }
+}
+
 .our_company_three p {
     margin: 0 0 0 58px;
     height: 64%;
     overflow: hidden;
-    line-height: 24px;
+    line-height: 23px;
     font-family: 'OpenSans-Light';
     font-size: 1em;
+}
+
+@media (max-width: 768px) {
+    .our_company_three p {
+        margin: 0 0 0 65px;
+        height: 70%;
+        line-height: 23px;
+    }
 }
 
 .our_company h3 {
@@ -300,7 +316,7 @@ header {
 }
 
 @media (max-width: 768px) {
-    .our_company_one h3 {
+    .our_company h3 {
         font-size: 1.4em;
     }
 }
@@ -327,12 +343,24 @@ header {
     font-size: 1.1em;
 }
 
+@media (max-width: 768px) {
+    .our_company_two a {
+        margin: 8px 0 0 136px;
+    }
+}
+
 .our_company_three a {
     margin: 15px 0 0 228px;
     display: block;
     color: #fff;
     text-decoration: none;
     font-size: 1.1em;
+}
+
+@media (max-width: 768px) {
+    .our_company_three a {
+        margin: 6px 0 0 155px;
+    }
 }
 
 .our_company a:hover {
@@ -370,6 +398,13 @@ header {
     background: url('../img/Layer 34.png') -32px 0 no-repeat;
 }
 
+@media (max-width: 768px) {
+    .our_company_two h3:before {
+        margin-right: .6rem;
+        margin-left: .4rem;
+    }
+}
+
 .our_company_three h3:before {
     content: "";
     display: inline-block;
@@ -401,12 +436,30 @@ header {
     margin: 76px 0 0 7px;
 }
 
+@media (max-width: 768px) {
+    .our_company_one {
+        margin: 75px 0 0 7px;
+    }
+}
+
 .our_company_two {
     margin: 76px 0 0 51px;
 }
 
+@media (max-width: 768px) {
+    .our_company_two {
+        margin: 71px 0 0 51px;
+    }
+}
+
 .our_company_three {
-    margin: 76px 0 0 49px;
+    margin: 72px 0 0 49px;
+}
+
+@media (max-width: 768px) {
+    .our_company_three {
+        margin: 71px 0 0 31px;
+    }
 }
 
 .our_company_one,
@@ -450,6 +503,12 @@ header {
     background-image: url('../img/layer.png');
 }
 
+@media (max-width: 768px) {
+    .pingbuller {
+        width: 32%;
+    }
+}
+
 .head_pingbuller {
     display: flex;
     align-items: center;
@@ -481,6 +540,12 @@ header {
     width: 46%;
 }
 
+@media (max-width: 768px) {
+    .updates {
+    margin: 129px 0 0 88px;
+    }
+}
+
 .updates a {
     display: block;
     margin: 18px 0 0 345px;
@@ -509,6 +574,14 @@ header {
     margin-top: 0;
     margin-left: 12px;
     font-family: 'OpenSans-ExtraBold';
+}
+
+
+@media (max-width: 768px) {
+    .container h4 {
+    margin-bottom: 6px;
+    margin-top: 3px;
+    }
 }
 
 .container p {
