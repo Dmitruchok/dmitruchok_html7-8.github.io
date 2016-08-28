@@ -30,7 +30,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
-    padding-bottom: 166px;
+    padding-bottom: 168px;
 }
 
 .menu {
@@ -42,21 +42,62 @@ header {
     font-size: 1.5rem;
 }
 
+@media (max-width: 768px) {
+    .menu {
+        display: inline-block;
+    }
+}
+
+@media (max-width: 768px) {
+    .logo {
+    display: inline-block;
+    width: 100%;
+    }
+}
+
 .logo img {
     display: block;
 }
 
 .nav_menu {
-    margin-left: 4.1vw;
+    margin-left: 94px;
     display: inline-block;
     color: #fff;
+}
+
+@media (max-width: 960px) {
+    .nav_menu {
+        margin-left: 94px;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav_menu {
+        display: inline-block;
+        width: 100%;
+        padding:0;
+        margin-left: 0;
+    }
 }
 
 .nav_menu li {
     border-bottom: 1px solid rgba(0, 0, 0, 0);
     display: inline-block;
     list-style-type: none;
-    margin-left: 2.1vw;
+    margin-left: 45px;
+}
+
+@media (max-width: 960px) {
+    .nav_menu li {
+        margin-left: 45px;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav_menu li {
+        margin-right: 6.1vw;
+        margin-left: 0;
+    }
 }
 
 .nav_menu li:hover {
@@ -78,33 +119,84 @@ header {
 
 .banner_img {
     position: absolute;
-    top: 11vw;
-    left: 56vw;
+    top: 210px;
+    left: 929px;
+}
+
+@media (max-width: 960px) {
+    .banner_img {
+        top: 210px;
+        left: 617px;
+    }
 }
 
 .banner {
-    margin-top: 7.1vw;
+    margin-top: 151px;
     font-family: 'league-gothic.regular';
     background: rgba(0, 0, 0, .3);
 }
 
+@media (max-width: 960px) {
+    .banner{
+        margin-top: 151px;
+    }
+}
+
+@media (max-width: 768px) {
+    .banner{
+        margin-top: 6.8vw;
+    }
+}
+
 .banner_content {
-    padding-bottom: 82px;
+    padding-bottom: 81px;
     margin: 0 auto;
     display: flex;
     width: 960px;
 }
 
+@media (max-width: 960px) {
+    .banner_content {
+        padding-bottom: 81px;
+    }
+}
+
+@media (max-width: 768px) {
+    .banner_content {
+        padding-bottom: 14vw;
+    }
+}
+
 .banner_text {
     width: 54%;
-    margin: 1.2vw 0 0 0;
+    margin: 54px 0 0 0;
+}
+
+@media (max-width: 960px) {
+    .banner_text {
+        margin: 54px 0 0 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .banner_text {
+        width: 30%;
+        margin: 9.3vw 0 0 2.7vw;
+    }
 }
 
 .banner_text h2 {
-    margin: 2.3vw 0 0 0;
+    margin: 21px 0 0 0;
     font-size: 3.6rem;
     font-weight: normal;
     color: #fefefe;
+}
+
+@media (max-width: 768px) {
+    .banner_text h2 {
+    margin: 3.6vw 0 0 0;
+    font-size: 2.9rem;
+    }
 }
 
 .banner_text h3 {
@@ -114,16 +206,32 @@ header {
     color: #edbfff;
 }
 
+@media (max-width: 768px) {
+    .banner_text h3 {
+        margin: .8vw 0;
+        font-size: 1.3rem;
+    }
+}
+
 .banner_text p {
     margin: 0;
     font-size: 1.1rem;
     font-family: 'OpenSans-Light';
     color: #fefefe;
-    line-height: 25px;
+    line-height: 24px;
+}
+
+@media (max-width: 768px) {
+    .banner_text p {
+    height: 107px;
+    overflow: hidden;
+    font-size: 1.1rem;
+    line-height: 3.7vw;
+    }
 }
 
 .content {
-    padding-bottom: 70px;
+    padding-bottom: 72px;
     background: linear-gradient(to top, #33263a, #745082);
 }
 
@@ -136,27 +244,61 @@ header {
     font-family: 'league-gothic.regular';
 }
 
-.our_company p {
-    margin: 7px 0 0 54px;
+.our_company_one p {
+    margin: 4px 0 0 57px;
     height: 64%;
     overflow: hidden;
-    line-height: 25px;
+    line-height: 24px;
     font-family: 'OpenSans-Light';
-    font-size: 1rem;
+    font-size: 1em;
+}
+
+.our_company_two p {
+    margin: 0 0 0 58px;
+    height: 64%;
+    overflow: hidden;
+    line-height: 24px;
+    font-family: 'OpenSans-Light';
+    font-size: 1em;
+}
+
+.our_company_three p {
+    margin: 0 0 0 58px;
+    height: 64%;
+    overflow: hidden;
+    line-height: 24px;
+    font-family: 'OpenSans-Light';
+    font-size: 1em;
 }
 
 .our_company h3 {
     margin: 0;
-    font-size: 1.8rem;
+    font-size: 1.8em;
     font-weight: normal;
 }
 
-.our_company a {
-    margin: 11px 0 0 215px;
+.our_company_one a {
+    margin: 15px 0 0 217px;
     display: block;
     color: #fff;
     text-decoration: none;
-    font-size: 1.1rem;
+    font-size: 1.1em;
+}
+
+.our_company_two a {
+    margin: 17px 0 0 225px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+.our_company_three a {
+    margin: 15px 0 0 228px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
 }
 
 .our_company a:hover {
@@ -169,7 +311,9 @@ header {
     vertical-align: middle;
     height: 2rem;
     width: 1.9rem;
-    margin-right: 2rem;
+    margin-right: 1.5rem;
+    margin-top: 0.2rem;
+    margin-left: 0.3rem;
     background: url('../img/Layer 34.png') 0 0 no-repeat;
 }
 
@@ -178,8 +322,10 @@ header {
     display: inline-block;
     vertical-align: middle;
     height: 2rem;
-    width: 2rem;
-    margin-right: 2rem;
+    width: 1.9rem;
+    margin-right: 1.6rem;
+    margin-top: .4rem;
+    margin-left: .4rem;
     background: url('../img/Layer 34.png') -32px 0 no-repeat;
 }
 
@@ -188,8 +334,10 @@ header {
     display: inline-block;
     vertical-align: middle;
     height: 2rem;
-    width: 2rem;
-    margin-right: 2rem;
+    width: 1.9rem;
+    margin-right: 1.6rem;
+    margin-top: .5rem;
+    margin-left: .6rem;
     background: url('../img/Layer 34.png') -65px 0 no-repeat;
 }
 
@@ -229,7 +377,7 @@ header {
 .inform {
     background: #fff;
     font-family: 'OpenSans-Light';
-    padding-bottom: 90px;
+    padding-bottom: 88px;
 }
 
 .inform_content {
@@ -248,7 +396,7 @@ header {
 }
 
 .pingbuller {
-    margin: 116px 0 0 0;
+    margin: 118px 0 0 0;
     width: 44%;
     background-image: url('../img/layer.png');
 }
@@ -268,10 +416,10 @@ header {
 }
 
 .pingbuller p {
-height: 163px;
+    height: 162px;
     overflow: hidden;
-    line-height: 1.5rem;
-    margin: 0 0 0 67px;
+    line-height: 23px;
+    margin: 0 0 0 70px;
 }
 
 .head_pingbuller:before {
@@ -280,15 +428,15 @@ height: 163px;
 }
 
 .updates {
-    margin: 126px 0 0 88px;
+    margin: 129px 0 0 90px;
     width: 46%;
 }
 
 .updates a {
     display: block;
-    margin: 13px 0 0 343px;
+    margin: 18px 0 0 345px;
     color: #454545;
-    font-size: 1.1rem;
+    font-size: 1.1em;
     text-decoration: none;
     font-family: 'league-gothic.regular';
 }
@@ -300,6 +448,7 @@ height: 163px;
 .blog,
 .ikon3 {
     display: inline-block;
+    vertical-align: top;
 }
 
 .container {
@@ -307,7 +456,7 @@ height: 163px;
 }
 
 .container h4 {
-    margin-bottom: 0;
+    margin-bottom: 7px;
     margin-top: 0;
     margin-left: 12px;
     font-family: 'OpenSans-ExtraBold';
@@ -316,6 +465,7 @@ height: 163px;
 .container p {
     margin-left: 12px;
     margin-bottom: 0;
+    margin-top: 0;
     font-family: 'OpenSans-Light';
 }
 
@@ -435,14 +585,15 @@ footer {
 
 .nav_menu_footer ul {
     margin: 0;
-    padding: 2.6vw 0 0 0;
+    padding: 44px 0 0 0;
     width: 81%;
 }
 
 .nav_menu_footer li {
     display: inline-block;
     list-style-type: none;
-    margin-right: 1.9vw;
+    margin-right: 41px;
+
 }
 
 .designer_by {
@@ -450,7 +601,7 @@ footer {
     align-items: center;
     justify-content: flex-end;
     font-size: 12px;
-    margin: 52px 0 48px 6px;
+    margin: 52px 0 48px 10px;
     width: 18%;
 }
 
@@ -463,56 +614,3 @@ footer {
     font-family: 'OpenSans-ExtraBold';
 }
 
-@media (max-width: 768px) {
-    .menu {
-        display: inline-block;
-    }
-
-    .logo {
-    display: inline-block;
-    width: 100%;
-    }
-
-    .nav_menu {
-        display: inline-block;
-        width: 100%;
-        padding:0;
-        margin-left: 0;
-    }
-
-    .nav_menu li {
-        margin-right: 6.1vw;
-        margin-left: 0;
-    }
-
-    .banner{
-        margin-top: 6.8vw;
-    }
-
-    .banner_text {
-        width: 30%;
-        margin: 9.3vw 0 0 2.7vw;
-    }
-/*
-    .banner_text h2 {
-    margin: 3.6vw 0 0 0;
-    font-size: 2.9rem;
-    }
-
-    .banner_text h3 {
-        margin: .8vw 0;
-        font-size: 1.3rem;
-    }
-
-    /*.banner_text p {
-    height: 107px;
-    overflow: hidden;
-    font-size: 1.1rem;
-    line-height: 3.7vw;
-}*/
-
-    .banner_content {
-        padding-bottom: 14vw;
-    }
-
-}
