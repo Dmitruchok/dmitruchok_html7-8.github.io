@@ -33,13 +33,19 @@ header {
     padding-bottom: 168px;
 }
 
+@media (max-width: 768px) {
+    header {
+        padding-bottom: 154px;
+    }
+}
+
 .menu {
     display: flex;
     width: 960px;
     margin: 0 auto;
     font-family: 'league-gothic.regular';
     font-weight: normal;
-    font-size: 1.5rem;
+    font-size: 1.5em;
 }
 
 @media (max-width: 768px) {
@@ -77,6 +83,7 @@ header {
         width: 100%;
         padding:0;
         margin-left: 0;
+        margin-top: 27px;
     }
 }
 
@@ -95,7 +102,7 @@ header {
 
 @media (max-width: 768px) {
     .nav_menu li {
-        margin-right: 6.1vw;
+        margin-right: 46px;
         margin-left: 0;
     }
 }
@@ -130,6 +137,13 @@ header {
     }
 }
 
+@media (max-width: 768px) {
+    .banner_img {
+        top: 170px;
+        left: 428px;
+    }
+}
+
 .banner {
     margin-top: 151px;
     font-family: 'league-gothic.regular';
@@ -144,7 +158,7 @@ header {
 
 @media (max-width: 768px) {
     .banner{
-        margin-top: 6.8vw;
+        margin-top: 50px;
     }
 }
 
@@ -163,7 +177,7 @@ header {
 
 @media (max-width: 768px) {
     .banner_content {
-        padding-bottom: 14vw;
+        padding-bottom: 110px;
     }
 }
 
@@ -181,13 +195,13 @@ header {
 @media (max-width: 768px) {
     .banner_text {
         width: 30%;
-        margin: 9.3vw 0 0 2.7vw;
+        margin: 67px 0 0 23px;
     }
 }
 
 .banner_text h2 {
     margin: 21px 0 0 0;
-    font-size: 3.6rem;
+    font-size: 3.6em;
     font-weight: normal;
     color: #fefefe;
 }
@@ -195,13 +209,13 @@ header {
 @media (max-width: 768px) {
     .banner_text h2 {
     margin: 3.6vw 0 0 0;
-    font-size: 2.9rem;
+    font-size: 2.9em;
     }
 }
 
 .banner_text h3 {
     margin: 0;
-    font-size: 1.9rem;
+    font-size: 1.9em;
     font-weight: normal;
     color: #edbfff;
 }
@@ -209,13 +223,13 @@ header {
 @media (max-width: 768px) {
     .banner_text h3 {
         margin: .8vw 0;
-        font-size: 1.3rem;
+        font-size: 1.3em;
     }
 }
 
 .banner_text p {
     margin: 0;
-    font-size: 1.1rem;
+    font-size: 1.1em;
     font-family: 'OpenSans-Light';
     color: #fefefe;
     line-height: 24px;
@@ -225,8 +239,8 @@ header {
     .banner_text p {
     height: 107px;
     overflow: hidden;
-    font-size: 1.1rem;
-    line-height: 3.7vw;
+    font-size: 1.1em;
+    line-height: 27px;
     }
 }
 
@@ -253,6 +267,14 @@ header {
     font-size: 1em;
 }
 
+@media (max-width: 768px) {
+    .our_company_one p {
+    margin: 0px 0 0 57px;
+    height: 72%;
+    line-height: 23px;
+    }
+}
+
 .our_company_two p {
     margin: 0 0 0 58px;
     height: 64%;
@@ -277,12 +299,24 @@ header {
     font-weight: normal;
 }
 
+@media (max-width: 768px) {
+    .our_company_one h3 {
+        font-size: 1.4em;
+    }
+}
+
 .our_company_one a {
     margin: 15px 0 0 217px;
     display: block;
     color: #fff;
     text-decoration: none;
     font-size: 1.1em;
+}
+
+@media (max-width: 768px) {
+    .our_company_one a {
+        margin: 8px 0 0 147px;
+    }
 }
 
 .our_company_two a {
@@ -315,6 +349,13 @@ header {
     margin-top: 0.2rem;
     margin-left: 0.3rem;
     background: url('../img/Layer 34.png') 0 0 no-repeat;
+}
+
+@media (max-width: 768px) {
+    .our_company_one h3:before {
+        margin-top: 0;
+        margin-left: 0.2rem;
+    }
 }
 
 .our_company_two h3:before {
@@ -372,6 +413,14 @@ header {
 .our_company_two,
 .our_company_three {
     width: 30%;
+}
+
+@media (max-width: 768px) {
+    .our_company_one,
+    .our_company_two,
+    .our_company_three {
+        width: 22%;
+    }
 }
 
 .inform {
@@ -500,14 +549,14 @@ header {
 .news_kategori h2{
     display: inline-block;
     margin: 0;
-    font-size: 3rem;
+    font-size: 3em;
     font-family: 'league-gothic.regular';
     font-weight: normal;
     color: #454545;
 }
 
 .news_kategori h3 {
-    font-size: 1.8rem;
+    font-size: 1.8em;
     margin: 0;
     font-family: 'league-gothic.regular';
     font-weight: normal;
@@ -538,7 +587,7 @@ header {
     margin: 0;
     line-height: 25px;
     font-family: 'OpenSans-Light';
-    font-size: 1rem;
+    font-size: 1em;
 }
 
 .kategori_one h5 {
@@ -553,7 +602,7 @@ header {
     overflow: hidden;
     line-height: 25px;
     font-family: 'OpenSans-Light';
-    font-size: 1rem;
+    font-size: 1em;
     margin-top: 7px;
 
 }
@@ -562,7 +611,7 @@ header {
 .head_updates span {
     display: inline-block;
     font-family: 'league-gothic.regular';
-    font-size: 3rem;
+    font-size: 3em;
 }
 
 
@@ -580,7 +629,7 @@ footer {
     width: 960px;
     margin: 0 auto;
     padding: 0;
-    font-size: 1.2rem;
+    font-size: 1.2em;
 }
 
 .nav_menu_footer ul {
