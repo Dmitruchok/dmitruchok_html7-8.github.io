@@ -47,7 +47,7 @@ header {
 }
 
 .nav_menu {
-    margin-left: 88px;
+    margin-left: 4.1vw;
     display: inline-block;
     color: #fff;
 }
@@ -56,7 +56,7 @@ header {
     border-bottom: 1px solid rgba(0, 0, 0, 0);
     display: inline-block;
     list-style-type: none;
-    margin-left: 46px;
+    margin-left: 2.1vw;
 }
 
 .nav_menu li:hover {
@@ -71,34 +71,6 @@ header {
     color: #fff;
 }
 
-@media (max-width: 768px) {
-    .menu {
-        display: inline-block;
-    }
-
-    .logo {
-    display: inline-block;
-    width: 100%;
-    }
-
-    .nav_menu {
-        display: inline-block;
-        width: 100%;
-        padding:0;
-        margin-left: 0;
-    }
-
-    .nav_menu li {
-        margin-right: 46px;
-        margin-left: 0;
-    }
-
-    .banner {
-        margin-top: 116px;
-    }
-
-}
-
 .nav_menu_footer a {
     text-decoration: none;
     color: #fff;
@@ -106,12 +78,12 @@ header {
 
 .banner_img {
     position: absolute;
-    top: 20%;
-    left: 57%;
+    top: 11vw;
+    left: 56vw;
 }
 
 .banner {
-    margin-top: 153px;
+    margin-top: 7.1vw;
     font-family: 'league-gothic.regular';
     background: rgba(0, 0, 0, .3);
 }
@@ -125,11 +97,11 @@ header {
 
 .banner_text {
     width: 54%;
-    margin: 50px 0 0 0;
+    margin: 1.2vw 0 0 0;
 }
 
 .banner_text h2 {
-    margin: 25px 0 0 0;
+    margin: 2.3vw 0 0 0;
     font-size: 3.6rem;
     font-weight: normal;
     color: #fefefe;
@@ -458,19 +430,19 @@ footer {
     width: 960px;
     margin: 0 auto;
     padding: 0;
-    font-size: 20px;
+    font-size: 1.2rem;
 }
 
 .nav_menu_footer ul {
     margin: 0;
-    padding: 45px 0 0 0;
+    padding: 2.6vw 0 0 0;
     width: 81%;
 }
 
 .nav_menu_footer li {
     display: inline-block;
     list-style-type: none;
-    margin-right: 5%;
+    margin-right: 1.9vw;
 }
 
 .designer_by {
@@ -491,3 +463,56 @@ footer {
     font-family: 'OpenSans-ExtraBold';
 }
 
+@media (max-width: 768px) {
+    .menu {
+        display: inline-block;
+    }
+
+    .logo {
+    display: inline-block;
+    width: 100%;
+    }
+
+    .nav_menu {
+        display: inline-block;
+        width: 100%;
+        padding:0;
+        margin-left: 0;
+    }
+
+    .nav_menu li {
+        margin-right: 6.1vw;
+        margin-left: 0;
+    }
+
+    .banner{
+        margin-top: 6.8vw;
+    }
+
+    .banner_text {
+        width: 30%;
+        margin: 9.3vw 0 0 2.7vw;
+    }
+/*
+    .banner_text h2 {
+    margin: 3.6vw 0 0 0;
+    font-size: 2.9rem;
+    }
+
+    .banner_text h3 {
+        margin: .8vw 0;
+        font-size: 1.3rem;
+    }
+
+    /*.banner_text p {
+    height: 107px;
+    overflow: hidden;
+    font-size: 1.1rem;
+    line-height: 3.7vw;
+}*/
+
+    .banner_content {
+        padding-bottom: 14vw;
+    }
+
+}
