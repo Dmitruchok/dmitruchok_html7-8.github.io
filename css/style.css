@@ -152,13 +152,6 @@ header {
     left: 616px;
 }
 
-@media (max-width: 960px) {
-    .banner_img {
-        top: -57px;
-        left: 428px;
-    }
-}
-
 @media (max-width: 768px) {
     .banner_img {
         top: -23px;
