@@ -117,6 +117,59 @@
     .our_company_one, .our_company_two, .our_company_three {
     width: 90%;
     }
+    
+    .inform {
+        padding-bottom: 86px;
+    }
 
+    .inform_content {
+        display: table;
+    }
 
+    .pingbuller {
+        margin: 87px 0 0 20px;
+        width: 88%;
+    }
+
+    .pingbuller p {
+    line-height: 24px;
+    margin: 0 0 0 68px;
+    }
+
+    .updates {
+    margin: 128px 0 0 84px;
+    width: 95%;
+    }
+
+    .container p {
+        width: 243px;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+    a.more {
+        display: none;
+    }
+    
+    a.more_blog {
+        display: table;
+        margin: 18px 0 0 249px;
+    }
+
+    .labe {
+        padding-bottom: 38px;
+    }
+
+    img.logos {
+        display: none;
+    }
+    
+    img.logos768 {
+        display: none;
+    }
+
+    img.logos480 {
+        margin: 37px 0 0 69px;
+    }
+    
 }
