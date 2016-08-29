@@ -348,7 +348,7 @@ header {
 
 @media (max-width: 768px) {
     .our_company_one a {
-        margin: 8px 0 0 147px;
+        margin: 9px 0 0 147px;
     }
 }
 
@@ -465,7 +465,7 @@ header {
 
 @media (max-width: 768px) {
     .our_company_two {
-        margin: 71px 0 0 51px;
+        margin: 71px 0 0 48px;
     }
 }
 
@@ -475,7 +475,7 @@ header {
 
 @media (max-width: 768px) {
     .our_company_three {
-        margin: 71px 0 0 31px;
+        margin: 71px 0 0 26px;
     }
 }
 
@@ -489,7 +489,7 @@ header {
     .our_company_one,
     .our_company_two,
     .our_company_three {
-        width: 22%;
+        width: 28%;
     }
 }
 
@@ -520,7 +520,7 @@ header {
 
 @media (max-width: 768px) {
     .pingbuller {
-        width: 32%;
+        width: 54%;
     }
 }
 
@@ -557,7 +557,8 @@ header {
 
 @media (max-width: 768px) {
     .updates {
-    margin: 129px 0 0 88px;
+        width: 74%;
+        margin: 129px 0 0 0;
     }
 }
 
@@ -671,13 +672,19 @@ img.logos768 {
     font-weight: normal;
 }
 
-.news_kategori h2{
+.news_kategori h2 {
     display: inline-block;
     margin: 0;
     font-size: 3em;
     font-family: 'league-gothic.regular';
     font-weight: normal;
     color: #454545;
+}
+
+@media (max-width: 768px) {
+    .news_kategori h2 {
+        font-size: 2em;
+    }
 }
 
 .news_kategori h3 {
@@ -716,7 +723,7 @@ img.logos768 {
     .kategori_one,
     .kategori_two,
     .kategori_three  {
-        width: 22%; 
+        width: 29%;
         margin-top: 100px;
     }
 }
@@ -753,6 +760,12 @@ img.logos768 {
     display: inline-block;
     font-family: 'league-gothic.regular';
     font-size: 3em;
+}
+
+@media (max-width: 768px) {
+    .head_updates span {
+        font-size: 2em;
+    }
 }
 
 
