@@ -24,6 +24,29 @@ body {
 
 
 /*HEDER*/
+.container-width {
+    width: 960px;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .container-width {
+        width: 768px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .container-width {
+        width: 480px;
+    }
+}
+
+@media (max-width: 320px) {
+    .container-width {
+        width: 320px;
+    }
+}
 
 header {
     background: url('../img/bg.png');
@@ -41,8 +64,6 @@ header {
 
 .menu {
     display: flex;
-    width: 960px;
-    margin: 0 auto;
     font-family: 'league-gothic.regular';
     font-weight: normal;
     font-size: 1.5em;
@@ -50,6 +71,7 @@ header {
 
 @media (max-width: 768px) {
     .menu {
+        width: 768px;
         display: inline-block;
     }
 }
@@ -126,20 +148,20 @@ header {
 
 .banner_img {
     position: absolute;
-    top: 210px;
-    left: 929px;
+    top: -17px;
+    left: 616px;
 }
 
 @media (max-width: 960px) {
     .banner_img {
-        top: 210px;
-        left: 617px;
+        top: -57px;
+        left: 428px;
     }
 }
 
 @media (max-width: 768px) {
     .banner_img {
-        top: 170px;
+        top: -23px;
         left: 428px;
     }
 }
@@ -160,6 +182,10 @@ header {
     .banner{
         margin-top: 50px;
     }
+}
+
+.banner-inner {
+    position: relative;
 }
 
 .banner_content {
@@ -252,9 +278,7 @@ header {
 .our_company {
     display: flex;
     color: white;
-    width: 960px;
     height: 270px;
-    margin: 0 auto;
     font-family: 'league-gothic.regular';
 }
 
@@ -484,8 +508,6 @@ header {
 
 .inform_content {
     display: flex;
-    width: 960px;
-    margin: 0 auto;
 }
 
 .inform_content h2 {
@@ -619,11 +641,6 @@ a.more_blog {
     border-top: 1px solid #f5efef;
 }
 
-.labe_img {
-    width: 960px;
-    margin: 0 auto;
-}
-
 .labe_img img.logos {
     margin: 25px 0 0 92px;
 }
@@ -659,8 +676,6 @@ img.logos768 {
     display: flex;
     color: #b9b9b9;
     font-weight: normal;
-    width: 960px;
-    margin: 0 auto;
 }
 
 .news_kategori h2{
@@ -759,8 +774,6 @@ footer {
 
 .nav_menu_footer {
     display: flex;
-    width: 960px;
-    margin: 0 auto;
     padding: 0;
     font-size: 1.2em;
 }
