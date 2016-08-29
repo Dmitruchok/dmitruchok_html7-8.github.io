@@ -1,78 +1,14 @@
-@font-face {
-    font-family: 'league-gothic.condensed-regular';
-    src: url('../fonts/league-gothic.condensed-regular.ttf');
-}
-
-@font-face {
-    font-family: 'league-gothic.regular';
-    src: url('../fonts/LeagueGothicRegular.woff');
-}
-
-@font-face {
-    font-family: 'OpenSans-Light';
-    src: url('../fonts/OpenSans-Light.ttf');
-}
-
-@font-face {
-    font-family: 'OpenSans-ExtraBold';
-    src: url('../fonts/OpenSans-ExtraBold.ttf');
-}
-
-body {
-    font-family: 'OpenSans-Light';
-}
 
 
-/*HEDER*/
-.container-width {
-    width: 960px;
-    margin: 0 auto;
-}
-
-@media only screen and (max-width: 960px){
+@media (min-width: 768px) and (max-width: 959px){
     .container-width {
         width: 768px;
     }
-}
-
-@media (max-width: 768px) {
-    .container-width {
-        width: 768px;
-    }
-}
-
-
-@media (max-width: 480px) {
-    .container-width {
-        width: 480px;
-    }
-}
-
-@media (max-width: 320px) {
-    .container-width {
-        width: 320px;
-    }
-}
-
-header {
-    background: url('../img/bg.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top center;
-    padding-bottom: 168px;
-}
 
 @media (max-width: 768px) {
     header {
         padding-bottom: 154px;
     }
-}
-
-.menu {
-    display: flex;
-    font-family: 'league-gothic.regular';
-    font-weight: normal;
-    font-size: 1.5em;
 }
 
 @media (max-width: 768px) {
@@ -689,7 +625,7 @@ img.logos768 {
 
 @media (max-width: 768px) {
     .news_kategori h2 {
-        font-size: 1.4em;
+        font-size: 2em;
     }
 }
 
