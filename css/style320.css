@@ -5,6 +5,10 @@
 
     /*HEDER*/
     
+header {
+    padding-bottom: 71px;
+    }
+
     .menu {
     display: block;
     }
@@ -31,7 +35,6 @@
         padding-top: 13px;
         text-decoration: none;
         color: #edbfff;
-        border-bottom: 2px solid rgba(0, 0, 0, 0);
     }
 
     a.head_link {
@@ -132,26 +135,37 @@
     }
 
     .our_company {
-    display: block;
+        display: block;
     }
     
     .our_company h3 {
-    font-size: 1.4em;
+        font-size: 1.44em;
     }
 
     .our_company_one {
-    padding: 73px 0 0 25px;
+        padding: 66px 0 0 37px;
     }
 
     .our_company_two {
-        margin: 17px 0 0 22px;
+        margin: 17px 0 0 33px;
     }
 
     .our_company_three {
-        margin: 19px 0 0 19px;
+        margin: 31px 0 0 30px;
+    }
+    
+    .our_company_one a {
+        margin: 13px 0 0 214px;
+    }
+    
+    .our_company_two a {
+        margin: 12px 0 0 218px;
     }
 
-    
+    .our_company_three a {
+        margin: 10px 0 0 221px;
+    }
+
     .our_company_one p {
         margin: 0 0 0 57px;
         height: 71px;
@@ -174,19 +188,6 @@
     }
 
 
-    .our_company_one a {
-        margin: 13px 0 0 372px;
-    }
-    
-    .our_company_two a {
-        margin: 12px 0 0 376px;
-    }
-    
-    .our_company_three a {
-        margin: 10px 0 0 376px;
-    }
-
-
     .our_company_one {
      margin: 0;
     }
@@ -202,9 +203,17 @@
         display: table;
     }
 
+    .head_pingbuller h2 {
+        font-size: 1.55em;
+    }
+
+    .head_pingbuller h3 {
+        font-size: 1.55em;
+    }
+
     .pingbuller {
-        margin: 87px 0 0 20px;
-        width: 88%;
+        margin: 88px 0 0 33px;
+        width: 69%;
     }
 
     .pingbuller p {
@@ -213,8 +222,8 @@
     }
 
     .updates {
-    margin: 128px 0 0 84px;
-    width: 95%;
+        margin: 126px 0 0 32px;
+        width: 105%;
     }
 
     .container p {
@@ -228,12 +237,12 @@
     }
     
     a.more_blog {
-        display: table;
-        margin: 18px 0 0 249px;
+        display: block;
+        margin: 16px 0 0 187px;
     }
 
     .labe {
-        padding-bottom: 38px;
+        padding-bottom: 73px;
     }
 
     img.logos {
@@ -245,75 +254,24 @@
     }
 
     img.logos480 {
-        margin: 37px 0 0 69px;
+        display: none;
+    }
+
+    img.logos320 {
+        margin: 53px 0 0 55px;
     }
     
     .news {
-    padding-bottom: 84px;
-    }
-
-    .news_kategori {
-        display: block;
-    }
-    
-    .news_kategori h2 {
-        font-size: 1.6em;
-    }
-
-    .news_kategori h3 {
-        font-size: 1.5em;
-    }
-
-    .kategori_one,
-    .kategori_two,
-    .kategori_three {
-        width: 93%;
-    }
-
-    .kategori_one {
-        margin-top: 0;
-        padding: 78px 0 0 19px;
-    }
-
-    .kategori_one p {
-        height: 100px;
-    }
-
-    .kategori_one h5 {
-        margin: 0;
-    }
-    
-    .kategori_two {
-    margin-top: 42px;
-    margin-left: 19px;
-    }
-    
-    .kategori_three {
-    margin-top: 53px;
-    padding: 0;
-    margin-left: 19px;
-    }
-
-    .kategori_two p, .kategori_three p {
-        height: 100px;
-    }
-
-    .head_updates span {
-    font-size: 1.6em;
+     display: none;
     }
 
     .nav_menu_footer {
         display: block;
-        padding-bottom: 85px;
+        padding: 41px 0 146px 0;
     }
     
     .nav_menu_footer ul {
-        padding: 45px 0 0 23px;
-        width: 455px;
-    }
-    
-    .nav_menu_footer li {
-        margin-right: 22px;
+        display: none;
     }
     
     .designer_by {
@@ -321,7 +279,7 @@
         width: 100%;
         font-size: 12px;
         text-align: center;
-        margin: 35px 0 0 1px;
+        margin: 0 0 0 13px;
     }
 
     .designer_by p,
