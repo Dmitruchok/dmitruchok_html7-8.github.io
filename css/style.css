@@ -380,12 +380,19 @@ a.more_blog {
     border-top: 1px solid #f5efef;
 }
 
-.labe_img img.logos {
+img.logos {
     margin: 25px 0 0 92px;
 }
 
-
 img.logos768 {
+    display: none;
+}
+
+img.logos480 {
+    display: none;
+}
+    
+img.logos320 {
     display: none;
 }
 

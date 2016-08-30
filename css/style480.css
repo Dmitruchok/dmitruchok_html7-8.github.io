@@ -257,6 +257,10 @@
         margin: 37px 0 0 69px;
     }
     
+    img.logos320 {
+        display: none;
+    }
+    
     .news {
     padding-bottom: 84px;
     }

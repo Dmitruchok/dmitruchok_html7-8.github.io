@@ -191,6 +191,14 @@
         margin: 25px 0 0 3px;
     }
 
+    img.logos480 {
+        display: none;
+    }
+    
+    img.logos320 {
+        display: none;
+    }
+
     .labe {
         padding-bottom: 31px;
     }
@@ -215,13 +223,5 @@
 
     .news {
         padding-bottom: 95px;
-    }
-
-    .news_kategori h2 {
-    font-size: 1.6em;
-    }
-
-    .head_updates span {
-    font-size: 1.6em;
     }
 }
