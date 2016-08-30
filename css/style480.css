@@ -9,7 +9,7 @@
     }
     
     .menu {
-    display: table;
+    display: block;
     }
 
     .nav_menu {
