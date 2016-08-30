@@ -48,6 +48,10 @@ header {
     display: block;
 }
 
+.nav_menu_480_320 {
+    display: none;
+}
+
 .nav_menu {
     margin-left: 94px;
     display: inline-block;
@@ -132,6 +136,8 @@ header {
     padding-bottom: 72px;
     background: linear-gradient(to top, #33263a, #745082);
 }
+
+/*CONTENT*/
 
 .our_company {
     display: flex;
@@ -462,6 +468,8 @@ img.logos768 {
     font-family: 'league-gothic.regular';
     font-size: 3em;
 }
+
+/*FOOTER*/
 
 footer {
     background: url('../img/footer.png');

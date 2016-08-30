@@ -22,7 +22,11 @@
         display: inline-block;
      width: 100%;
     }
-
+    
+    .nav_menu_480_320 {
+        display: none;
+    }
+    
     .nav_menu {
         display: inline-block;
         width: 100%;
