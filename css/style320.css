@@ -3,14 +3,14 @@
         width: 320px;
     }
 
-    /*HEDER*/
+    /*HEADER*/
     
-header {
-    padding-bottom: 71px;
+    header {
+        padding-bottom: 71px;
     }
 
     .menu {
-    display: block;
+        display: block;
     }
 
     .nav_menu {
@@ -128,7 +128,9 @@ header {
         overflow: hidden;
         margin-left: 38px;
     }
-    
+
+    /*CONTENT*/
+
     .content {
         height: 599px;
         padding:0;
@@ -189,10 +191,12 @@ header {
 
 
     .our_company_one {
-     margin: 0;
+        margin: 0;
     }
-    .our_company_one, .our_company_two, .our_company_three {
-    width: 90%;
+    .our_company_one,
+    .our_company_two, 
+    .our_company_three {
+        width: 90%;
     }
     
     .inform {
@@ -217,8 +221,8 @@ header {
     }
 
     .pingbuller p {
-    line-height: 24px;
-    margin: 0 0 0 68px;
+        margin: 0 0 0 68px;
+        line-height: 24px;
     }
 
     .updates {
@@ -262,8 +266,10 @@ header {
     }
     
     .news {
-     display: none;
+        display: none;
     }
+
+    /*FOOTER*/
 
     .nav_menu_footer {
         display: block;
@@ -288,6 +294,3 @@ header {
     }
 
 }
-
-
-
