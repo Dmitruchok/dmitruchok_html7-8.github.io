@@ -10,7 +10,7 @@
   }
 
   .content {
-    padding-bottom: 74px;
+    padding-bottom: 72px;
   }
 
   .menu {
@@ -47,7 +47,7 @@
 
   .banner {
     margin-top: 48px;
-    padding-bottom: 25px;
+    padding-bottom: 21px;
   }
 
   .banner_text {
@@ -137,6 +137,7 @@
   }
 
   .pingbuller {
+    margin: 122px 0 0 0;
     width: 42%;
   }
 
@@ -144,8 +145,18 @@
     font-size: 1.5em;
   }
 
+  .pingbuller p {
+    height: 141px;
+    line-height: 24px;
+    margin: 6px 0 0 67px;
+  }
+
   .head_pingbuller {
     display: block;
+  }
+
+  .head_pingbuller:before {
+    margin-right: 8px;
   }
 
   .head_pingbuller_h {
@@ -153,7 +164,7 @@
   }
   
   .inform {
-    padding-bottom: 88px;
+    padding-bottom: 89px;
   }
 
   .inform_content h2 {
@@ -162,7 +173,7 @@
   }
 
   .updates {
-    margin: 128px 0 0 74px;
+    margin: 130px 0 0 73px;
     width: 44%;
   }
 
@@ -212,7 +223,7 @@
   }
 
   .labe {
-    padding-bottom: 31px;
+    padding-bottom: 30px;
   }
 
   .news_kategori h2 {
