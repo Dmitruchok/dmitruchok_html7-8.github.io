@@ -47,7 +47,7 @@
 
   .banner {
     margin-top: 48px;
-    padding-bottom: 21px;
+    padding-bottom: 27px;
   }
 
   .banner_text {
@@ -247,5 +247,13 @@
 
   .news {
     padding-bottom: 95px;
+  }
+
+  .nav_menu_footer ul {
+    width: 75%;
+  }
+
+  .designer_by {
+    margin: 101px 0 0 12px;
   }
 }
