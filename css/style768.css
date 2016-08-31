@@ -143,12 +143,21 @@
   .pingbuller h3 {
     font-size: 1.5em;
   }
+
+  .head_pingbuller {
+    display: block;
+  }
+
+  .head_pingbuller_h {
+    display: inline-block;
+  }
   
   .inform {
     padding-bottom: 88px;
   }
 
   .inform_content h2 {
+    display: block;
     font-size: 1.5em;
   }
 
