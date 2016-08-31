@@ -248,7 +248,7 @@
     }
 
     .labe {
-        padding-bottom: 38px;
+        padding-bottom: 41px;
     }
 
     img.logos {
@@ -260,6 +260,7 @@
     }
 
     img.logos480 {
+        display: block;
         margin: 37px 0 0 69px;
     }
     
