@@ -64,7 +64,10 @@
         list-style-type: none;
         height: 48px;
     }
-
+    .nav_menu_480_320 li:hover { 
+        border-bottom: 2px solid #523e5a;
+    }
+    
     .nav_menu_480_320_inner {
         display: none;
         width: 247px;
@@ -77,7 +80,7 @@
 
     .nav_menu_480_320_inner li {
         height: 42px;
-        border-bottom: 2px solid rgba(0, 0, 0, 0);
+        border-bottom: 2px solid #523e5a;
     }
 
 

@@ -223,7 +223,7 @@
   }
 
   .labe {
-    padding-bottom: 30px;
+    padding-bottom: 27px;
   }
 
   .news_kategori h2 {
@@ -251,6 +251,10 @@
 
   .nav_menu_footer ul {
     width: 75%;
+  }
+  
+  .nav_menu_footer {
+    padding-bottom: 87px;
   }
 
   .designer_by {

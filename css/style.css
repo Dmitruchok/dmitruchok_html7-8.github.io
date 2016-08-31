@@ -280,7 +280,7 @@ header {
 .inform {
   background: #fff;
   font-family: 'OpenSans-Light';
-  padding-bottom: 51px;
+  padding-bottom: 89px;
 }
 
 .inform_content {
@@ -382,7 +382,7 @@ a.more_blog {
 }
 
 img.logos {
-  margin: 25px 0 0 92px;
+  margin: 25px 0 0 95px;
 }
 
 img.logos768 {
@@ -399,7 +399,7 @@ img.logos320 {
 
 .news {
   background: #ececec;
-  padding-bottom: 91px;
+  padding-bottom: 89px;
 }
 
 .news_kategori {
