@@ -250,7 +250,7 @@
   }
 
   .nav_menu_footer ul {
-    width: 75%;
+    width: 76%;
   }
   
   .nav_menu_footer {
@@ -259,5 +259,6 @@
 
   .designer_by {
     margin: 101px 0 0 12px;
+    width: 19%;
   }
 }
