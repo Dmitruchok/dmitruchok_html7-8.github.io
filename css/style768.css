@@ -50,6 +50,10 @@
     padding-bottom: 27px;
   }
 
+  .banner_content {
+    width: 768px;
+  }
+
   .banner_text {
     margin: 67px 0 0 23px;
     width: 30%;
