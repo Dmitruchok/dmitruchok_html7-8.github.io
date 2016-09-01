@@ -1,4 +1,4 @@
-@media (min-width: 480px) and (max-width: 766px){
+@media (min-width: 480px) and (max-width: 768px){
     .container-width {
         width: 480px;
     }
@@ -18,7 +18,7 @@
     }
 
     .nav_menu_480_320 {
-        display: block;
+        display: table;
         position: relative;
         font-size: 1em;
         width: 247px;
@@ -102,6 +102,7 @@
     }
 
     .logo {
+        display: table;
         padding: 5px 0 0 165px;
     }
 
@@ -111,7 +112,6 @@
     
     .banner_content {
         padding-bottom: 91px;
-        width: 480px;
     }
 
     .banner_img {
@@ -307,6 +307,7 @@
     .kategori_two {
         margin-top: 42px;
         margin-left: 19px;
+        padding: 0;
     }
     
     .kategori_three {
