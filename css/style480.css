@@ -108,10 +108,11 @@
 
     .banner {
         margin-top: 23px;
+        padding: 0;
     }
     
     .banner_content {
-        padding-bottom: 91px;
+        padding-bottom: 79px;
     }
 
     .banner_img {
@@ -125,7 +126,7 @@
     
     .banner_text {
         width: 55%;
-        margin: 71px 0 0 39px;
+        margin: 60px 0 0 41px;
     }
 
     .banner_text p {
@@ -155,12 +156,16 @@
         font-size: 1.4em;
     }
 
+    .our_company_two h3:before {
+        margin-right: 1.6rem;
+    }
+
     .our_company_one {
-        padding: 73px 0 0 25px;
+        padding: 75px 0 0 28px;
     }
 
     .our_company_two {
-        margin: 17px 0 0 22px;
+        margin: 17px 0 0 23px;
     }
 
     .our_company_three {
