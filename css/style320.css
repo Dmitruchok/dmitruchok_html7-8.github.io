@@ -101,6 +101,7 @@
     
     .banner_content {
         padding-bottom: 91px;
+        width: 320px;
     }
 
     .banner_img {
@@ -108,7 +109,7 @@
     }
     
     .banner_text {
-        width: 30%;
+        width: 80%;
         margin: 71px 0 0 39px;
     }
 

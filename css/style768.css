@@ -50,6 +50,10 @@
     padding-bottom: 27px;
   }
 
+  .banner_content {
+    width: 768px;
+  }
+
   .banner_text {
     margin: 67px 0 0 23px;
     width: 30%;
@@ -250,7 +254,7 @@
   }
 
   .nav_menu_footer ul {
-    width: 75%;
+    width: 76%;
   }
   
   .nav_menu_footer {
@@ -259,5 +263,6 @@
 
   .designer_by {
     margin: 101px 0 0 12px;
+    width: 19%;
   }
 }
