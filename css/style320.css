@@ -1,4 +1,4 @@
-@media (min-width: 320px) and (max-width: 478px){
+@media (min-width: 320px) and (max-width: 480px){
     .container-width {
         width: 320px;
     }
@@ -101,7 +101,6 @@
     
     .banner_content {
         padding-bottom: 91px;
-        width: 320px;
     }
 
     .banner_img {
@@ -197,7 +196,7 @@
     .our_company_one,
     .our_company_two, 
     .our_company_three {
-        width: 90%;
+        width: 88%;
     }
     
     .inform {
@@ -227,12 +226,18 @@
     }
 
     .updates {
-        margin: 126px 0 0 32px;
-        width: 105%;
+        margin: 126px 0 0 23px;
+        width: 90%;
+    }
+    
+    .container h4 {
+    width: 220px;
+    white-space: nowrap;
+    overflow: hidden;
     }
 
     .container p {
-        width: 243px;
+        width: 217px;
         white-space: nowrap;
         overflow: hidden;
     }
@@ -284,10 +289,9 @@
     
     .designer_by {
         display: block;
-        width: 100%;
-        font-size: 12px;
+        width: 70%;
         text-align: center;
-        margin: 0 0 0 13px;
+        margin: 0 0 0 52px;
     }
 
     .designer_by p,

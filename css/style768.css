@@ -1,6 +1,6 @@
-@media (min-width: 768px) and (max-width: 958px){
+@media (min-width: 768px) and (max-width: 960px){
   .container-width {
-    width: 768px;
+    width: 749px;
   }
 
   /*HEADER*/
@@ -15,7 +15,7 @@
 
   .menu {
     display: inline-block;
-    width: 768px;
+    width: 749px;
   }
 
   .logo {
@@ -50,13 +50,9 @@
     padding-bottom: 27px;
   }
 
-  .banner_content {
-    width: 768px;
-  }
-
   .banner_text {
     margin: 67px 0 0 23px;
-    width: 30%;
+    width: 40%;
   }
 
   .banner_text h2 {
