@@ -29,6 +29,7 @@ body {
   width: 960px;
 }
 
+
 header {
   background: url('../img/bg.png');
   background-position: top center;
@@ -91,9 +92,22 @@ header {
 }
 
 .banner {
+  position: relative;
   background: rgba(0, 0, 0, .3);
   font-family: 'league-gothic.regular';
   margin-top: 151px;
+}
+
+img.left_arrow {
+  position: absolute;
+  top: 178px;
+  left: -8px;
+}
+
+img.right_arrow {
+  position: absolute;
+  top: 178px;
+  left: 98%;
 }
 
 .banner-inner {
@@ -209,7 +223,7 @@ header {
 } 
 
 .our_company_one h3:before {
-  background: url('../img/Layer 34.png') 0 0 no-repeat;
+  background: url('../img/layer34.png') 0 0 no-repeat;
   content: "";
   display: inline-block;
   height: 2rem;
@@ -221,7 +235,7 @@ header {
 }
 
 .our_company_two h3:before {
-  background: url('../img/Layer 34.png') -32px 0 no-repeat;
+  background: url('../img/layer34.png') -32px 0 no-repeat;
   content: "";
   display: inline-block;
   height: 2rem;
@@ -233,7 +247,7 @@ header {
 }
 
 .our_company_three h3:before {
-  background: url('../img/Layer 34.png') -65px 0 no-repeat;
+  background: url('../img/layer34.png') -65px 0 no-repeat;
   content: "";
   display: inline-block;
   height: 2rem;

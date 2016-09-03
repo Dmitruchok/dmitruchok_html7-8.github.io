@@ -98,6 +98,18 @@
     .banner {
         margin-top: 23px;
     }
+
+    img.left_arrow {
+        position: absolute;
+        top: 103px;
+        left: 25px;
+    }
+
+    img.right_arrow {
+        position: absolute;
+        top: 103px;
+        left: 292px;
+    }
     
     .banner_content {
         padding-bottom: 91px;

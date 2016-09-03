@@ -50,6 +50,18 @@
     padding-bottom: 25px;
   }
 
+  img.left_arrow {
+  position: absolute;
+  top: 178px;
+  left: -13px;
+  }
+
+  img.right_arrow {
+  position: absolute;
+  top: 178px;
+  left: 93%;
+  }
+
   .banner_text {
     margin: 67px 0 0 23px;
     width: 40%;
