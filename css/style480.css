@@ -51,11 +51,8 @@
 
     span.head_link {
         display: block;
-        width: 46px
-    }
-
-    span.head_link {
         border-bottom: 2px solid #edbfff;
+        width: 46px
     }
 
     .nav_menu_480_320 li {
@@ -87,14 +84,13 @@
     .nav_menu_480_320_inner a {
         padding-top: 9px;
     }
+
+    .nav_menu_480_320_inner a:hover {
+        border-bottom: 2px solid;
+    }
         
     .nav_menu_480_320_inner li:hover {
         background-color: rgba(43, 34, 49, .6);
-        border-bottom: 2px solid #edbfff;
-    }
-
-    .nav_menu_480_320_inner li.foot_link {
-        border: none;
     }
 
     .nav_menu_480_320:hover .nav_menu_480_320_inner {
