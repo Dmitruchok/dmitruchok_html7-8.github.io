@@ -107,7 +107,7 @@
 
     .banner {
         margin-top: 23px;
-        padding: 0 0 21px 0;
+        padding: 0 0 12px 0;
     }
     
     .banner_content {
@@ -125,7 +125,7 @@
     
     .banner_text {
         width: 55%;
-        margin: 60px 0 0 41px;
+        margin: 71px 0 0 40px;
     }
 
     .banner_text p {
