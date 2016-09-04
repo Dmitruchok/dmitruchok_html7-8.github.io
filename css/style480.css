@@ -125,20 +125,18 @@
         width: 191px;
     }
 
-    img.left_arrow {
-        position: absolute;
-        top: 101px;
-        left: 0;
+    .left_arrow {
+        float: left;
+        margin-top: 102px;
     }
 
-    img.right_arrow {
-        position: absolute;
-        top: 101px;
-        left: 452px;
+    .right_arrow {
+        float: right;
+        margin-top: 102px;
     }
     
     .banner_text {
-        width: 55%;
+        width: 65%;
         margin: 71px 0 0 40px;
     }
 
