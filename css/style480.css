@@ -1,4 +1,4 @@
-@media (min-width: 480px) and (max-width: 768px){
+@media (min-width: 480px) and (max-width: 767px){
     .container-width {
         width: 480px;
     }
@@ -128,13 +128,11 @@
     .left_arrow {
         float: left;
         margin-top: 102px;
-        margin-left: 125px;
     }
 
     .right_arrow {
         float: right;
         margin-top: 102px;
-        margin-right: 124px;
     }
     
     .banner_text {

@@ -1,4 +1,4 @@
-@media (min-width: 320px) and (max-width: 480px){
+@media (min-width: 320px) and (max-width: 479px){
     .container-width {
         width: 320px;
     }
@@ -120,7 +120,7 @@
     
     .banner_text {
         width: 300px;
-        margin: 71px 0 0 28px;
+        margin: 71px 0 0 37px;
     }
 
     .banner_text p {
@@ -206,7 +206,7 @@
     .our_company_one,
     .our_company_two, 
     .our_company_three {
-        width: 88%;
+        width: 280px
     }
     
     .inform {

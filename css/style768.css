@@ -1,4 +1,4 @@
-@media (min-width: 768px) and (max-width: 960px){
+@media (min-width: 768px) and (max-width: 959px){
   .container-width {
     width: 768px;
   }
@@ -59,12 +59,12 @@
   .right_arrow {
     float: right;
     margin-top: 179px;
-    margin-right: 3px;
+    margin-right: 15px;
   }
 
   .banner_text {
     margin: 67px 0 0 23px;
-    width: 40%;
+    width: 306px;
   }
 
   .banner_text h2 {
