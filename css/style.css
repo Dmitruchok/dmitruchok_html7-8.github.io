@@ -212,7 +212,7 @@ header {
   color: #fff;
   display: block;
   font-size: 1.1em;
-  margin: 15px 0 0 228px;
+  margin: 15px 0 0 224px;
   text-decoration: none;
 }
 
@@ -286,7 +286,7 @@ header {
 .our_company_one,
 .our_company_two,
 .our_company_three {
-  width: 30%;
+  width: 300px;
 }
 
 .inform {

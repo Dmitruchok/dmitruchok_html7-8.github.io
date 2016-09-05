@@ -128,16 +128,18 @@
     .left_arrow {
         float: left;
         margin-top: 102px;
+        margin-left: 125px;
     }
 
     .right_arrow {
         float: right;
         margin-top: 102px;
+        margin-right: 124px;
     }
     
     .banner_text {
         width: 65%;
-        margin: 71px 0 0 40px;
+        margin: 71px 0 0 13px;
     }
 
     .banner_text p {
@@ -222,8 +224,10 @@
     .our_company_one {
         margin: 0;
     }
-    .our_company_one, .our_company_two, .our_company_three {
-        width: 90%;
+    .our_company_one,
+    .our_company_two,
+    .our_company_three {
+        width: 435px;
     }
     
     .inform {
