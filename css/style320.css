@@ -99,7 +99,7 @@
         margin-top: 23px;
     }
 
-    .left_arrow {
+    /*.left_arrow {
         float: left;
         margin-top: 102px;
         margin-left: 9px;
@@ -108,7 +108,7 @@
     .right_arrow {
         float: right;
         margin-top: 102px;
-    }
+    }*/
     
     .banner_content {
         padding-bottom: 91px;
@@ -120,7 +120,7 @@
     
     .banner_text {
         width: 300px;
-        margin: 71px 0 0 37px;
+        margin: 71px 0 0 80px;
     }
 
     .banner_text p {

@@ -125,7 +125,7 @@
         width: 191px;
     }
 
-    .left_arrow {
+    /*.left_arrow {
         float: left;
         margin-top: 102px;
     }
@@ -133,11 +133,11 @@
     .right_arrow {
         float: right;
         margin-top: 102px;
-    }
+    }*/
     
     .banner_text {
         width: 65%;
-        margin: 71px 0 0 13px;
+        margin: 71px 0 0 39px;
     }
 
     .banner_text p {
